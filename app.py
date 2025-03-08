@@ -4,7 +4,7 @@ import joblib
 import os
 
 # Define file paths
-MODEL_PATH = r"C:\Users\NA\Downloads\Traffic Accident Severity streamlit deployement\xgb_model.pkl"
+MODEL_PATH = "xgb_model.pkl"
 LABEL_ENCODER_PATH = "label_encoder.pkl"
 # Load the trained model
 if os.path.exists(MODEL_PATH):
