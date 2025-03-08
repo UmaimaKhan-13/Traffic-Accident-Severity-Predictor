@@ -4,8 +4,8 @@ import joblib
 import os
 
 # Define file paths
-MODEL_PATH = r"https://github.com/UmaimaKhan-13/Traffic-Accident-Severity-Predictor/blob/main/xgb_model.pkl"
-LABEL_ENCODER_PATH = r"https://github.com/UmaimaKhan-13/Traffic-Accident-Severity-Predictor/blob/main/label_encoder.pkl"
+MODEL_PATH = r"C:\Users\NA\Downloads\Traffic Accident Severity streamlit deployement\xgb_model.pkl"
+LABEL_ENCODER_PATH = r"C:\Users\NA\Downloads\Traffic Accident Severity streamlit deployement\label_encoder.pkl"
 # Load the trained model
 if os.path.exists(MODEL_PATH):
     xgb_model = joblib.load(MODEL_PATH)
